@@ -1,25 +1,47 @@
-# IBM Stock Data with yfinance
+# 📈 IBM Stock Data with yfinance
 
-This is a practice notebook from the [IBM Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/ibm-data-analyst) course — *Extracting Stock Data Using a Python Library*.
-
-## 🔍 What I did
-
-- Fetched real-time and historical stock data for AMD using `yfinance`
-- Retrieved metadata such as company `country`, `sector`, and `industry`
-- Extracted stock history and analyzed data like volume and closing prices
-- Practiced working with pandas DataFrames for financial data
-
-## 🛠️ Skills practiced
-
-- Web API usage
-- yfinance basics
-- pandas DataFrame manipulation
-- Working with historical stock data
-
-## 📁 Files
-
-- `Final_Assignment_Library.ipynb` — main notebook with code
+This notebook is part of the **IBM Data Analyst Professional Certificate** course.  
+It demonstrates how to extract and analyze stock market data using the `yfinance` Python library.
 
 ---
 
-This is a small learning project and will be included in my data analytics portfolio.
+## 🔍 What I Did
+
+- Retrieved real-time and historical stock data for **AMD (Advanced Micro Devices)** using the `yfinance` API.
+- Loaded and explored company metadata, such as:
+  - Country of registration
+  - Sector and industry classification
+- Parsed and inspected stock history including:
+  - Daily trading **volume**
+  - **Opening**, **closing**, **high**, and **low** prices
+
+---
+
+## 🛠️ Skills Practiced
+
+- Fetching stock data from a web API
+- Using `yfinance` to create stock objects
+- Working with JSON files and Python dictionaries
+- Manipulating and analyzing data with `pandas`
+- Using `head()`, `.info`, and key indexing to explore DataFrames
+
+---
+
+## 🗂️ Files
+
+- `Final_Assignment_Library.ipynb` – Jupyter Notebook with full implementation and inline explanations
+- `README.md` – This file
+
+---
+
+## 💡 Why I Included This
+
+Although this is a small guided project, it helped solidify my understanding of:
+- Using external APIs in data analysis
+- Transforming real-world financial data into structured DataFrames
+- Building habits around clean, readable, and reproducible code
+
+This project is part of my **data analytics portfolio** to demonstrate my learning journey and foundational technical skills.
+
+---
+
